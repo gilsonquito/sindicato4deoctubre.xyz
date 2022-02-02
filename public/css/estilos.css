@@ -1,0 +1,361 @@
+#submenu-docente
+{
+    display: none;
+}
+#btnfacebook
+{
+    background-color: #3b5998;
+}
+#btntwetter
+{
+    background-color: #55acee;
+}
+#menu1:hover {
+    background-color:#be9222;
+    opacity: 0.8;
+    border-radius: 50px;
+    color:black;
+    transition: 0.5s linear;
+    }
+
+    #menu2:hover {
+        background-color:#be9222;
+        opacity: 0.8;
+        border-radius: 50px;
+        color:black;
+        transition: 0.5s linear;
+        }
+        #menu3:hover {
+            background-color:#be9222;
+            opacity: 0.8;
+            border-radius: 50px;
+            color:black;
+            transition: 0.5s linear;
+            }
+            #menu4:hover {
+                background-color:#be9222;
+                opacity: 0.8;
+                border-radius: 50px;
+                color:black;
+                transition: 0.5s linear;
+                }
+                #menu5:hover {
+                    background-color:#be9222;
+                    opacity: 0.8;
+                    border-radius: 50px;
+                    color:black;
+                    transition: 0.5s linear;
+                    }
+        
+              
+                #menu1{
+                    transition: 0.5s linear;
+                    color: whitesmoke;
+                     }
+                     #menu2{
+                        transition: 0.5s linear;
+                        color: whitesmoke;
+                         }
+                         #menu3{
+                            transition: 0.5s linear;
+                            color: whitesmoke;
+                             }
+                             #menu4{
+                                transition: 0.5s linear;
+                                color: whitesmoke;
+                                 }   
+                                 #menu5{
+                                    transition: 0.5s linear;
+                                    color: whitesmoke;
+                                     }   
+                                           
+
+ body
+{
+    background: white;
+    font-family: serif;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    width: 100%;
+    height:100%;
+   
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom: 1.6em;    
+}
+.container{
+    width: 85%;
+    margin: o auto;
+
+}
+.header{
+    background: #DAA520;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 100;
+    top: 0; 
+    width: 99.99%; 
+    
+}
+
+
+#menu-icon
+{
+    display: none;
+   
+    
+}
+#logo{
+    width:80px;
+    display: block;
+    margin: auto;
+}
+#titulo{
+   text-align: center;
+   margin: auto;
+}
+#textoprincipal
+{
+    color: #ffc022;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-size: 4rem;
+    line-height: 0.8em;
+    text-align: center;
+    
+
+   
+}
+#titulo2
+{
+    color: #ffc022;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    line-height: 0.8em;
+    text-align: center;
+    
+
+   
+}
+@media only screen and (max-width: 838px)
+{
+    #textoprincipal
+    {
+        font-size: 2rem;
+    }
+    #titulo2
+    {
+       
+        font-size: 2rem;
+    
+        
+    
+       
+    }
+    #menu-icon
+{
+    display: block;
+    opacity: 0.2;
+    background: white;
+   
+}
+    #menu1{
+        display: none;
+        width: 100%;
+         }
+         #menu2{
+            display: none;
+            width: 100%;
+             }
+             #menu3{
+                display: none;
+                width: 100%;
+                 }
+                 #menu4{
+                    display: none;
+                    width: 100%;
+                     }
+                     #menu5{
+                        display: none;
+                        width: 100%;
+                         }
+                 
+                 
+        
+    .nav{
+        width: 100%;
+    }
+    
+}
+#iconoredesf {
+    background-color: #3b5998;
+   
+     border-radius: 100%;
+     width: 60px;
+     height: 60px;
+   color:whitesmoke;
+    padding: 5% 3%;
+    opacity: 0.8;
+}
+
+#iconoredestweter {
+    
+    background-color: #00acee;
+   
+     border-radius: 100%;
+     width: 60px;
+     height: 60px;
+   color:whitesmoke;
+   padding: 5% 3%;
+   opacity: 0.8;
+    
+}
+#iconoredesf:hover {
+    background-color: #3b5998;
+   
+     border-radius: 100%;
+     width: 60px;
+     height: 60px;
+   color:whitesmoke;
+   padding: 5% 3%; 
+   opacity: 1;
+}
+
+#iconoredestweter:hover {
+    
+    background-color: #00acee;
+   
+     border-radius: 100%;
+     width: 60px;
+     height: 60px;
+    color:whitesmoke;
+    padding: 5% 3%;
+    opacity: 1;
+}
+#menuredes
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+#headerimg
+{
+  
+    width: 100%; 
+   height: 100px;
+   position: absolute;
+   top: 0;
+   z-index: -2;
+    
+}
+#inicio
+{  
+    position: relative;
+    width: 100%;
+  color: #000000;
+  opacity: 0.9;
+
+}
+#imgprincipal
+{
+   width: 100%; 
+      
+}
+#servicios
+{  
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color:#FFFDF2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#img-licenciac
+{
+    width: 100%;    
+ }
+ #img-licenciad
+{
+    width: 100%;    
+ }
+ #img-licenciae
+{
+    width: 100%;    
+ }
+ #acercade
+{  
+    position: relative;
+    width: 100%;
+    background-color:#fffafa;
+  
+}
+#contacto
+{  
+
+    background-color:#f1f1f1;
+  
+}
+#mapa{
+
+    height: 100%;
+    width: 100%;
+   
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background:#DAA520;
+  
+}
+
+
+#btnlc:hover
+{
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+}
+#btnld:hover
+{
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+}
+#btnle:hover
+{
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+}
+#btnacerca:hover
+{
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+}
+#redesf {
+  
+    border-radius:50%;
+   max-width: 35px;
+   max-height: min-content;
+    background:gold;
+    padding: 100 2 1 2;
+ 
+   
+}
+#redest {
+    
+    max-width: 35px;
+    max-height: min-content;
+    background:rgb(39, 43, 82);
+    border-radius:50%;
+   
+
+}

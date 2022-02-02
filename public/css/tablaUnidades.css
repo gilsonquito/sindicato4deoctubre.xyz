@@ -1,0 +1,73 @@
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #28a745;
+    border-color: #28a745 transparent #28a745 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #girarEliminar
+  {
+    align-self: center;
+    display: none;
+  }
+  #girarIngresar
+  {
+    align-self: center;
+    text-align: -webkit-center;
+    display: none;
+  }
+  #girarIngresarUnidad
+  {
+    align-self: center;
+    text-align: -webkit-center;
+    display: none;
+  }
+  
+  #girarEditarUnidad2
+  {
+    align-self: center;
+    text-align: -webkit-center;
+    display: none;
+  }
+  #girarActualizarUnidad
+  {
+    align-self: center;
+    text-align: -webkit-center;
+    display: none;
+  }
+  #cargarTecniasInstrumentos
+  {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  #cargarEvaluaciones
+  {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  #cargarResuladosUnidad
+  {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  

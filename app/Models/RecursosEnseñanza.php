@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\database\Eloquent\Model;
+
+class RecursosEnseñanza extends Model
+{
+    use HasFactory, Notifiable;
+
+    protected $table='recursos_enseñanza';
+
+    protected $fillable = [
+        'descripcion_recurso',
+        'id_sil',
+    ];
+
+    public $timestamps=false; 
+}

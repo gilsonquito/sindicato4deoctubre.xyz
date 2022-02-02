@@ -1,0 +1,73 @@
+#seccionPrerrequisitos
+{
+    display: block;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+#seccionDatosInformativos
+{
+    display: block;
+}
+#seccionDatosAsignatura
+{
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+#seccionUnidades
+{
+    display: block;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+#seccionPonderacion
+{
+    display: block;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+#seccionMetodologiasE
+{
+    display: block;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+#seccionRecursosE
+{
+    display: block;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+#seccionEscenariosAprensizaje
+{
+    display: block;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+#seccionBibliografia
+{
+    display: block;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+#seccionBibliografiaComplementaria
+{
+    display: block;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+#seccionWebgrafia
+{
+    display: block;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+#seccionBibliografiaDigital
+{
+    display: block;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+

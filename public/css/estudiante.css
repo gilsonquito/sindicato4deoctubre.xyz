@@ -1,0 +1,296 @@
+
+#submenu-notas-estudiante
+{
+    display: none;  
+}
+#submenu-estudiante
+{
+    display: none;  
+}
+#menu-icon
+{
+    display: none;   
+}
+#formcerrarsesion
+{
+    display: grid;
+}
+#divcerrarsesion
+{
+    color: rgb(121, 121, 16); 
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    width: max-content;
+    padding: 0px 10px 0px 10px;
+    display: block;  
+}
+#icon-silabo
+{
+    color: rgb(148, 13, 13);
+}
+#icon-horario
+{
+    color:darkred;
+}
+#icon-asistencia-est
+{
+    color:rgb(0, 14, 145);
+}
+#icon-calificaciones
+{
+    color:rgb(224, 224, 0)
+}
+#icon-asignatura
+{
+    color:rgb(61, 61, 59)
+}
+#logo
+{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+#fotoUsuario
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+#titulo
+{
+    font-size: 1rem;
+    color: black;
+}
+#tAcademic
+{
+    font-size: 2rem;  
+    color: black;  
+}
+#log
+{
+    color:black;
+}
+#menu-lateral.menu
+{
+  width: 16rem;
+}
+.d-block:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 1;
+    border: #EFF0E8 ;
+    transition: 0.3s;
+}
+#sub_actaCalificaciones:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-subirsilabo:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-misilabo:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-subirAvance:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-miAvance:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-notasModulos:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-actaCalificaciones:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-editarperfil:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#sub-menu-cambiarPaswword:hover
+{
+    text-decoration: none;
+    background-color: #dfdfdd;
+    opacity: 0.9;
+    border: #EFF0E8 1px solid;
+    transition: 0.3s;
+}
+#contendor
+{
+    height: 100%;
+}
+#menu-lateral
+{
+  min-height: 87vh;
+  color: black;
+}
+.footer
+{  
+    position: relative;
+    top: 100%;
+    right: 0;
+    left: 0;   
+}
+#titulosistemaacademico
+{
+    font-size: 2.4rem;  
+    color: black;
+    
+}
+#tituloslogan
+{
+    font-size: 1rem;  
+    color: black;
+    
+}
+@media only screen and (max-width: 1098px)
+{
+    #titulo
+    {
+        font-size: 0.8rem;
+    }
+   
+    #caja-logo
+    {
+        align-self: center;
+    }
+    #tAcademic
+    {
+        font-size: 1.2rem;    
+    }
+    #tAcademic0
+    {
+    position: fixed;
+    width: 100%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    #titulosistemaacademico
+    {
+        font-size: 1.9rem;  
+        color: black;
+    }
+    #tituloslogan
+        {
+            display: none;
+            font-size: 0.6rem;  
+            color: black;
+        }
+            #formcerrarsesion
+    {
+        display: inline-block;
+    }
+   
+    #divcerrarsesion
+    {
+	    width: 100%;        
+        padding: 10px;
+        text-align: end;
+    }
+    #menu-icon
+    {
+        display: block;
+        opacity: 0.8;
+        position: relative;
+        height: max-content;
+        top: 1.5%;
+        left: 2%;   
+    }
+    #caja-menu-docente
+    {       
+        padding: 10px; 
+    }
+    #icono-menu-docente
+    { 
+       background:whitesmoke;
+    }
+    #logo2
+    {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+    #menu-lateral
+    {
+        display: none;
+        min-height: min-content;
+     }
+}
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #28a745;
+    border-color: #28a745 transparent #28a745 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #girar
+  {
+    align-self: center;
+    display: none;
+  }
+  #girar2
+  {
+    align-self: center;
+    text-align: -webkit-center;
+    display: none;
+  }

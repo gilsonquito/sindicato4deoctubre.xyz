@@ -1,0 +1,138 @@
+#titulo
+{
+    font-family: Arial, Helvetica, Sans-serif;
+    margin: 0;
+    text-align: center;   
+}
+#logo
+{
+    width: 75px;
+    height: 75px;
+    text-align: left;
+}
+.body {
+    margin: 0cm 1cm 1cm;
+}
+h2
+{
+text-decoration: none;
+color:black;
+margin: 0.5em;
+}
+h3
+{
+text-decoration: none;
+color:black;
+margin: 0.5em;
+}
+h4
+{
+color:black;
+text-align: center;
+margin: 0;
+}
+h5
+{
+color:black;
+text-align: center;
+}
+p 
+{
+margin: 0.5em;
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+.titulo1
+{  
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;   
+    margin: 5px; 
+    font-size: 11;
+    text-align: center;  
+}
+.titulo2
+{  
+    font-weight: bold;
+    text-transform: uppercase;  
+    text-align: left;  
+    font-size: 9;
+}
+.box 
+{
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    margin: 10px;
+}
+.push { 
+    display: inline;
+    margin: 0;
+    float:left;
+    padding-left:0px;
+    margin: 10px;
+}
+.push2 {
+    display: inline;
+    text-align: center;
+    padding-right:50px;
+    margin: 10px;
+    float:right;
+}
+.normal
+{
+font-weight: normal;
+}
+
+table {
+    border:1px solid;
+    border-collapse: collapse;
+    text-align:center; 
+    margin: auto;
+    margin-top:10px;
+   
+}
+th {
+    border:1px solid;
+    border-spacing: 0;
+    font-size: 0.9em;
+    padding:3px;
+    width: min-content;
+}
+tr {
+    border:1px solid;
+    border-spacing: 0;
+    font-size: 0.9em;
+    width: min-content;
+}
+td {
+    border:1px solid;
+    border-spacing: 0;
+    font-size: 0.9em;
+    padding:3px;
+    width: min-content;
+}
+.box2
+{
+    display: inline-flex;
+    margin: 0;
+}
+.nombres
+{
+    text-align:left;
+}
+.divTabla
+{
+  text-align:center;
+}
+#seccionDatosInformativos
+{
+   padding: 5px;
+}
+.encabezado
+{
+    fill: orange;
+    background-color: yellow;
+color: #000000;
+}

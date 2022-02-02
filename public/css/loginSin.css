@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+  }
+  .wrapper {
+    min-height: calc(100% - 4rem);
+  }
+  .footer {
+    background:#DAA520;
+  }
+  #logo
+{
+    width: 50px;
+    height: 50px;
+    top: 0;
+}
+#titulologin
+{
+    font-size: 1.2rem;  
+    color: whitesmoke;
+}
+#header
+{
+    background-color: #4B4A3A;
+    width: 100%;
+    height:max-content;
+}
+#bloquelogin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mensajesCredenciales
+{
+    display: none;
+}
+#estudiante
+{
+    background-color: green;
+}
+#sectionlogin
+{
+   height: 90%;
+}
+@media only screen and (max-width: 1098px)
+{
+    #titulo
+{
+    font-size: 0.8rem;
+}
+#logo
+{
+    width: 50px;
+    height: 50px;
+    top: 0;
+}
+#tAcademic
+{
+    font-size: 1.2rem;  
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+#tAcademic0
+{
+ position: fixed;
+ width: 100%;
+}
+#imagenlogin
+{
+    display: none;
+}
+}

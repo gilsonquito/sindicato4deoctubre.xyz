@@ -1,0 +1,7 @@
+#tabla-horario
+{
+    width: 100%;
+    border: 1px solid;
+    
+}
+table, td, th { border: 1px solid; }
